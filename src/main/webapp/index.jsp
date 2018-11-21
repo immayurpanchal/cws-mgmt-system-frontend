@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1" errorPage="error.jsp"%>
 <!DOCTYPE html>
 <html lang="en">
   <head>  
@@ -25,7 +25,7 @@
     
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.html">BrightHotel</a>
+      <a class="navbar-brand" href="index.html">WorkSpace </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
@@ -33,10 +33,10 @@
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active"><a href="index.jsp" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="rooms.jsp" class="nav-link">Rooms</a></li>
+          <li class="nav-item"><a href="rooms.jsp" class="nav-link">WorkSpaces</a></li>
           <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
           <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-          <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
+          <li class="nav-item"><a href="login.html" class="nav-link">Log in</a></li>
         </ul>
       </div>
     </div>
@@ -45,34 +45,34 @@
   
   <div class="block-31" style="position: relative;">
     <div class="owl-carousel loop-block-31 ">
-      <div class="block-30 item" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+      <div class="block-30 item" style="background-image: url('images/m1.jpg');" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-10">
-              <span class="subheading-sm">Welcome</span>
-              <h2 class="heading">Enjoy a Luxury Experience</h2>
+              <!-- <span class="subheading-sm">Welcome</span> -->
+              <h2 class="heading">A Luxury WorkSpace </h2>
               <p><a href="#" class="btn py-4 px-5 btn-primary">Learn More</a></p>
             </div>
           </div>
         </div>
       </div>
-      <div class="block-30 item" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+      <div class="block-30 item" style="background-image: url('images/m2.jpg');" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-10">
-              <span class="subheading-sm">Welcome</span>
+              <!-- <span class="subheading-sm">Welcome</span> -->
               <h2 class="heading">Simple &amp; Elegant</h2>
               <p><a href="#" class="btn py-4 px-5 btn-primary">Learn More</a></p>
             </div>
           </div>
         </div>
       </div>
-      <div class="block-30 item" style="background-image: url('images/bg_3.jpg');" data-stellar-background-ratio="0.5">
+      <div class="block-30 item" style="background-image: url('images/m3.jpg');" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-10">
-              <span class="subheading-sm">Welcome</span>
-              <h2 class="heading">Food &amp; Drinks</h2>
+              <!-- <span class="subheading-sm">Welcome</span> -->
+              <h2 class="heading">Meeting Rooms </h2>
               <p><a href="#" class="btn py-4 px-5 btn-primary">Learn More</a></p>
             </div>
           </div>
@@ -89,50 +89,51 @@
           <div class="block-32">
             <form action="#">
               <div class="row">
-                <div class="col-md-6 mb-3 mb-lg-0 col-lg-3">
-                  <label for="checkin">Check In</label>
-                  <div class="field-icon-wrap">
-                    <div class="icon"><span class="icon-calendar"></span></div>
-                    <input type="text" id="checkin_date" class="form-control">
-                  </div>
-                </div>
-                <div class="col-md-6 mb-3 mb-lg-0 col-lg-3">
-                  <label for="checkin">Check Out</label>
-                  <div class="field-icon-wrap">
-                    <div class="icon"><span class="icon-calendar"></span></div>
-                    <input type="text" id="checkout_date" class="form-control">
-                  </div>
-                </div>
-                <div class="col-md-6 mb-3 mb-md-0 col-lg-3">
-                  <div class="row">
-                    <div class="col-md-6 mb-3 mb-md-0">
-                      <label for="checkin">Adults</label>
+                <!--Start of Select City -->
+                  <div class="col-md-3 mb-3 mb-md-0">
+                      <label for="checkin">City</label>
                       <div class="field-icon-wrap">
                         <div class="icon"><span class="ion-ios-arrow-down"></span></div>
                         <select name="" id="" class="form-control">
-                          <option value="">1</option>
-                          <option value="">2</option>
-                          <option value="">3</option>
-                          <option value="">4+</option>
+                          <option value="">Gandhinagar</option>
+                          <option value="">Ahmedabad</option>
+                         
                         </select>
                       </div>
                     </div>
-                    <div class="col-md-6 mb-3 mb-md-0">
-                      <label for="checkin">Children</label>
-                      <div class="field-icon-wrap">
-                        <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                        <select name="" id="" class="form-control">
-                          <option value="">1</option>
-                          <option value="">2</option>
-                          <option value="">3</option>
-                          <option value="">4+</option>
-                        </select>
-                      </div>
+                  <!--End of Select city-->
+
+                <!--Start of Select City -->
+                <div class="col-md-3 mb-3 mb-md-0">
+                    <label for="checkin">Location</label>
+                    <div class="field-icon-wrap">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Sector-21</option>
+                        <option value="">Infocity</option>
+                        <option value="">DAIICT</option>
+                        <option value="">Sector-2</option>
+                      </select>
                     </div>
                   </div>
-                </div>
+                <!--End of Select city-->
+
+                <!--Start of Select City -->
+                <div class="col-md-3 mb-3 mb-md-0">
+                    <label for="checkin">Type</label>
+                    <div class="field-icon-wrap">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Fixed Seat</option>
+                        <option value="">Meeting Room</option>
+                        <option value="">Flexible Seats</option>
+                        <option value="">Cabins</option>
+                      </select>
+                    </div>
+                  </div>
+                <!--End of Select city-->
                 <div class="col-md-6 col-lg-3 align-self-end">
-                  <button class="btn btn-primary btn-block">Check Availabilty</button>
+                  <button class="btn btn-primary btn-block">Search</button>
                 </div>
               </div>
             </form>
@@ -207,150 +208,16 @@
 
       </div>
     </div>
-
-    <div class="site-section block-13 bg-light">
-      <div class="container">
-         <div class="row mb-5">
-            <div class="col-md-7 section-heading">
-              <span class="subheading-sm">Featured Rooms</span>
-              <h2 class="heading">Rooms &amp; Suites</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, iusto, omnis! Quidem, sint, impedit? Dicta eaque delectus tempora hic, corporis velit doloremque quod quam laborum, nobis iusto autem culpa quaerat!</p>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-12">
-              <div class="nonloop-block-13 owl-carousel">
-                  <div class="item">
-                    <div class="block-34">
-                      <div class="image">
-                        <a href="#"><img src="images/img_1.jpg" alt="Image placeholder"></a>
-                      </div>
-                      <div class="text">
-                        <h2 class="heading">Bachelor Room</h2>
-                        <div class="price"><sup>$</sup><span class="number">156</span><sub>/per night</sub></div>
-                        <ul class="specs">
-                          <li><strong>Adults:</strong> 1</li>
-                          <li><strong>Categories:</strong> Single</li>
-                          <li><strong>Facilities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
-                          <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                          <li><strong>Bed Type:</strong> One bed</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="item">
-                    <div class="block-34">
-                      <div class="image">
-                        <a href="#"><img src="images/img_2.jpg" alt="Image placeholder"></a>
-                      </div>
-                      <div class="text">
-                        <h2 class="heading">Family Room</h2>
-                        <div class="price"><sup>$</sup><span class="number">320</span><sub>/per night</sub></div>
-                        <ul class="specs">
-                          <li><strong>Adults:</strong> 1</li>
-                          <li><strong>Categories:</strong> Single</li>
-                          <li><strong>Facilities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
-                          <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                          <li><strong>Bed Type:</strong> One bed</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="item">
-                    <div class="block-34">
-                      <div class="image">
-                        <a href="#"><img src="images/img_3.jpg" alt="Image placeholder"></a>
-                      </div>
-                      <div class="text">
-                        <h2 class="heading">Presidential Room</h2>
-                        <div class="price"><sup>$</sup><span class="number">425</span><sub>/per night</sub></div>
-                        <ul class="specs">
-                          <li><strong>Adults:</strong> 1</li>
-                          <li><strong>Categories:</strong> Single</li>
-                          <li><strong>Facilities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
-                          <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                          <li><strong>Bed Type:</strong> One bed</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="item">
-                    <div class="block-34">
-                      <div class="image">
-                        <a href="#"><img src="images/img_4.jpg" alt="Image placeholder"></a>
-                      </div>
-                      <div class="text">
-                        <h2 class="heading">Double Room</h2>
-                        <div class="price"><sup>$</sup><span class="number">525</span><sub>/per night</sub></div>
-                        <ul class="specs">
-                          <li><strong>Adults:</strong> 1</li>
-                          <li><strong>Categories:</strong> Single</li>
-                          <li><strong>Facilities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
-                          <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                          <li><strong>Bed Type:</strong> One bed</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="item">
-                    <div class="block-34">
-                      <div class="image">
-                        <a href="#"><img src="images/img_5.jpg" alt="Image placeholder"></a>
-                      </div>
-                      <div class="text">
-                        <h2 class="heading">VIP Room</h2>
-                        <div class="price"><sup>$</sup><span class="number">600</span><sub>/per night</sub></div>
-                        <ul class="specs">
-                          <li><strong>Adults:</strong> 1</li>
-                          <li><strong>Categories:</strong> Single</li>
-                          <li><strong>Facilities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
-                          <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                          <li><strong>Bed Type:</strong> One bed</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="item">
-                    <div class="block-34">
-                      <div class="image">
-                        <a href="#"><img src="images/img_6.jpg" alt="Image placeholder"></a>
-                      </div>
-                      <div class="text">
-                        <h2 class="heading">VIP Room</h2>
-                        <div class="price"><sup>$</sup><span class="number">760</span><sub>/per night</sub></div>
-                        <ul class="specs">
-                          <li><strong>Adults:</strong> 1</li>
-                          <li><strong>Categories:</strong> Single</li>
-                          <li><strong>Facilities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
-                          <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                          <li><strong>Bed Type:</strong> One bed</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  
-              </div>
-    
-            </div> <!-- .col-md-12 -->
-          </div>
-      </div>
-    </div>
   <footer class="footer">
     <div class="container">
       <div class="row mb-5">
         <div class="col-md-6 col-lg-4">
           <h3 class="heading-section">About Us</h3>
-          <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid. Atque dolore esse veritatis iusto eaque perferendis non dolorem fugiat voluptatibus vitae error ad itaque inventore accusantium tempore dolores sunt.</p>
-          <p><a href="#" class="btn btn-primary px-4">Button</a></p>
+          <p class="mb-5">We are providing co-working space to professional with services like 24/7 free wifi, sanitations, Meeting Rooms, Cabins, Fixed Seats, Flexible Seats etc at reasonable price on hourly, monthly and yearly basis.</p>
+          <p><a href="#" class="btn btn-primary px-4">Book a visit</a></p>
         </div>
         <div class="col-md-6 col-lg-4">
-          <h3 class="heading-section">Blog</h3>
+          <!-- <h3 class="heading-section">Blog</h3>
           <div class="block-21 d-flex mb-4">
             <figure class="mr-3">
               <img src="images/img_1.jpg" alt="" class="img-fluid">
@@ -363,9 +230,9 @@
                 <div><a href="#"><span class="icon-chat"></span> 19</a></div>
               </div>
             </div>
-          </div>
+          </div> -->
 
-          <div class="block-21 d-flex mb-4">
+          <!-- <div class="block-21 d-flex mb-4">
             <figure class="mr-3">
               <img src="images/img_2.jpg" alt="" class="img-fluid">
             </figure>
@@ -377,9 +244,9 @@
                 <div><a href="#"><span class="icon-chat"></span> 19</a></div>
               </div>
             </div>
-          </div>
+          </div> -->
 
-          <div class="block-21 d-flex mb-4">
+          <!-- <div class="block-21 d-flex mb-4">
             <figure class="mr-3">
               <img src="images/img_3.jpg" alt="" class="img-fluid">
             </figure>
@@ -391,15 +258,15 @@
                 <div><a href="#"><span class="icon-chat"></span> 19</a></div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
         <div class="col-md-6 col-lg-4">
           <div class="block-23">
             <h3 class="heading-section">Contact Info</h3>
               <ul>
-                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                <li><span class="icon icon-map-marker"></span><span class="text">DAIICT, Near Reliance Circle, Gandhinagar</span></li>
+                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91-98980 98980</span></a></li>
+                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@workspace.com</span></a></li>
                 <li><span class="icon icon-clock-o"></span><span class="text">Monday &mdash; Friday 8:00am - 5:00pm</span></li>
               </ul>
             </div>

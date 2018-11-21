@@ -177,14 +177,6 @@
             </div>
           </div>
         </div>
-        <div class="fixed-action-btn toolbar">
-          <a class="btn-floating btn-large amber black-text" href="#"> Login </a> <!--Here add code of login-->
-          <ul>
-            <li><a class="indigo center" href="#!">Login with FB</a></li>
-            <li><a class="blue center" href="#!">Login with Twitter</a></li>
-            <li><a class="red center" href="#!">Login with Google +</a></li>
-          </ul>
-        </div>
       </body>
     </html>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
