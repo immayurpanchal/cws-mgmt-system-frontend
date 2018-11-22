@@ -43,7 +43,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="viewWorkSpace.jsp">
+                <a class="nav-link " href="adminViewWorkSpace.jsp">
                   <i class="material-icons">vertical_split</i>
                   <span>View WorkSpaces</span>
                 </a>

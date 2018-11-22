@@ -123,16 +123,15 @@
             <div class="block-3 d-md-flex">
               <div class="image" style="background-image: url('images/img_1.jpg'); "></div>
               <div class="text">
-                <h2 class="heading">Bachelor Room</h2>
-                <div class="price"><sup>$</sup><span class="number">150</span><sub>/per night</sub></div>
+                <h2 class="heading">CoWorking Sector-21</h2>
+                <strong>DAIICT, Near Reliance Chowkdi, Gandhinagar</strong>
+                <div class="price"><sup>Rs.</sup><span class="number">200</span><sub>/per day</sub></div>
                 <ul class="specs mb-5">
-                  <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
-                  <li><strong>Facilities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
-                  <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                  <li><strong>Bed Type:</strong> One bed</li>
+                  <li><strong>No of seats:</strong> 2</li>
+                  <li><strong>Categories:</strong> Cabin</li>
+                  <li><strong>Facilities:</strong> Wifi, 24/7 Electricity, Coffee Maker Machine</li>
                 </ul>
-                <p><a href="#" class="btn btn-primary py-3 px-5">Read More</a></p>
+                <p><a href="#" class="btn btn-primary py-3 px-5">Book Now</a></p>
               </div>
             </div>
           </div>  

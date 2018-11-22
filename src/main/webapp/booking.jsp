@@ -34,8 +34,8 @@
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item "><a href="index.jsp" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="rooms.jsp" class="nav-link">WorkSpaces</a></li>
-          <li class="nav-item active"><a href="booking.jsp" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="workspaces.jsp" class="nav-link">WorkSpaces</a></li>
+          <li class="nav-item active"><a href="booking.jsp" class="nav-link">Contact / Booking Request </a></li>
         </ul>
       </div>
     </div>
