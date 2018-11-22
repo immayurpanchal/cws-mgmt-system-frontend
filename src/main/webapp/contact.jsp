@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -30,208 +32,70 @@
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="rooms.html" class="nav-link">Rooms</a></li>
-          <li class="nav-item active"><a href="services.html" class="nav-link">Services</a></li>
-          <!-- <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> -->
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          <li class="nav-item active"><a href="index.jsp" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="workspaces.jsp" class="nav-link">WorkSpaces</a></li>
+          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="booking.jsp" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="login.jsp" class="nav-link">Log in</a></li>
         </ul>
       </div>
     </div>
   </nav>
   <!-- END nav -->
-  
-  
 
+
+  
   <div class="block-30 block-30-sm item" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-10">
-          <span class="subheading-sm">Services</span>
-              <h2 class="heading">Facilities &amp; Services</h2>
+          <span class="subheading-sm">Contact</span>
+          <h2 class="heading">Get In Touch</h2>
         </div>
       </div>
     </div>
   </div>
 
-
-  <div class="container">
-
-  	<div class="row site-section">
-  		<div class="col-lg-7 mb-5">
-  			<img src="images/img_7.jpg" alt="Image placeholder" class="img-fluid img-shadow">
-  		</div>
-  		<div class="col-lg-5 pl-md-5">
-  			
-  			<div class="media block-6">
-          <div class="icon"><span class="ion-ios-checkmark"></span></div>
-          <div class="media-body">
-            <h3 class="heading">Luxury Rooms</h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts.</p>
-          </div>
-	      </div>     
-
-	      <div class="media block-6">
-          <div class="icon"><span class="ion-ios-checkmark"></span></div>
-          <div class="media-body">
-            <h3 class="heading">Fast &amp; Free Wifi</h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts.</p>
-          </div>
-	      </div>   
-
-	      <div class="media block-6">
-          <div class="icon"><span class="ion-ios-checkmark"></span></div>
-          <div class="media-body">
-            <h3 class="heading">Travel Accomodation</h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts.</p>
-          </div>
-	      </div>   
-
-
-  		</div>
-  	</div>
-
-
-  	<div class="row site-section pt-0">
-  		<div class="col-lg-7 mb-5 order-lg-2">
-  			<img src="images/img_2.jpg" alt="Image placeholder" class="img-fluid img-shadow">
-  		</div>
-  		<div class="col-lg-5 pr-md-5 order-lg-1">
-  			
-  			<div class="media block-6">
-          <div class="icon"><span class="ion-ios-checkmark"></span></div>
-          <div class="media-body">
-            <h3 class="heading">Luxury Rooms</h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts.</p>
-          </div>
-	      </div>     
-
-	      <div class="media block-6">
-          <div class="icon"><span class="ion-ios-checkmark"></span></div>
-          <div class="media-body">
-            <h3 class="heading">Fast &amp; Free Wifi</h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts.</p>
-          </div>
-	      </div>   
-
-	      <div class="media block-6">
-          <div class="icon"><span class="ion-ios-checkmark"></span></div>
-          <div class="media-body">
-            <h3 class="heading">Travel Accomodation</h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts.</p>
-          </div>
-	      </div>   
-
-
-  		</div>
-  	</div>
-  	
     
-    </div>
+  
 
-    <div class="bg-light site-section">
-    	<div class="container">
-
-    		<div class="row mb-5">
-            <div class="col-md-7 section-heading">
-              <span class="subheading-sm">More</span>
-              <h2 class="heading">Hotel Services</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, iusto, omnis! Quidem, sint, impedit? Dicta eaque delectus tempora hic, corporis velit doloremque quod quam laborum, nobis iusto autem culpa quaerat!</p>
+  <div class="site-section">
+    <div class="container">
+      <div class="row block-9">
+        <div class="col-md-6 pr-md-5">
+          <form action="#">
+            <div class="form-group">
+              <input type="text" class="form-control px-3 py-3" placeholder="Your Name">
             </div>
-          </div>
+            <div class="form-group">
+              <input type="text" class="form-control px-3 py-3" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control px-3 py-3" placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <textarea name="" id="" cols="30" rows="7" class="form-control px-3 py-3" placeholder="Message"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+            </div>
+          </form>
+        
+        </div>
 
-    		<div class="row ">
-      <div class="col-md-6 col-lg-4">
-        <div class="media block-6">
-          <div class="icon"><span class="flaticon-double-bed"></span></div>
-          <div class="media-body">
-            <h3 class="heading">Luxury Rooms</h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-          </div>
-        </div>      
+        <div class="col-md-6" id="map"></div>
       </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="media block-6">
-          <div class="icon"><span class="flaticon-wifi"></span></div>
-          <div class="media-body">
-            <h3 class="heading">Fast &amp; Free Wifi</h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="media block-6">
-          <div class="icon"><span class="flaticon-customer-service"></span></div>
-          <div class="media-body">
-            <h3 class="heading">Call Us 24/7</h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4">
-        <div class="media block-6">
-          <div class="icon"><span class="flaticon-taxi"></span></div>
-          <div class="media-body">
-            <h3 class="heading">Travel Accomodation</h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-          </div>
-        </div>      
-      </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="media block-6">
-          <div class="icon"><span class="flaticon-credit-card"></span></div>
-          <div class="media-body">
-            <h3 class="heading">Accepts Credit Card</h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="media block-6">
-          <div class="icon"><span class="flaticon-dinner"></span></div>
-          <div class="media-body">
-            <h3 class="heading">Restaurant</h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-          </div>
-        </div>
-      </div>
-
     </div>
-    	</div>
-    </div>
+  </div>
 
-    
-    <div class="site-section">
-    	<div class="container">
-	    	<div class="row">
-	    		<div class="col-md-6 col-lg-4 mb-5">
-	    			<img src="images/img_4.jpg" alt="Image placeholder" class="img-fluid img-shadow mb-4">
-	    			<h4>Even the all-powerful Pointing</h4>
-	    			<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-	    		</div>
-	    		<div class="col-md-6 col-lg-4 mb-5">
-	    			<img src="images/img_2.jpg" alt="Image placeholder" class="img-fluid img-shadow mb-4">
-	    			<h4>Blind texts it is an almost</h4>
-	    			<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-	    		</div>
-	    		<div class="col-md-6 col-lg-4 mb-5">
-	    			<img src="images/img_7.jpg" alt="Image placeholder" class="img-fluid img-shadow mb-4">
-	    			<h4>Pointing has no control about</h4>
-	    			<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-	    		</div>
-	    	</div>`
-    	</div>
-    </div>
-    
 
-    <div class="site-section bg-light">
+        
+  <div class="site-section bg-light">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-7 section-heading">
             <span class="subheading-sm">Reviews</span>
-            <h2 class="heading">Guest Reviews</h2>
+            <h2 class="heading">Customer Reviews</h2>
           </div>
         </div>
         <div class="row">
@@ -292,7 +156,7 @@
         </div>
       </div>
     </div>
-  
+
   <footer class="footer">
     <div class="container">
       <div class="row mb-5">

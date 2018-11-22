@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+    pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -33,11 +33,9 @@
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item active"><a href="rooms.html" class="nav-link">Rooms</a></li>
-          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-          <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
+          <li class="nav-item "><a href="index.jsp" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="rooms.jsp" class="nav-link">WorkSpaces</a></li>
+          <li class="nav-item active"><a href="booking.jsp" class="nav-link">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -46,12 +44,41 @@
 
 
   
-  <div class="block-30 block-30-sm item" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+  <div class="block-30 block-30-sm item" style="background-image: url('images/m2.jpg');" data-stellar-background-ratio="0.5">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-10">
-          <span class="subheading-sm">Rooms</span>
-          <h2 class="heading">Rooms &amp; Suites</h2>
+          <span class="subheading-sm">Contact</span>
+          <h2 class="heading">Get In Touch</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+  
+
+  <div class="site-section">
+    <div class="container">
+      <div class="row block-9">
+        <div class="col-md-6 pr-md-5">
+          <form action="#">
+            <div class="form-group">
+              <input type="text" class="form-control px-3 py-3" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control px-3 py-3" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control px-3 py-3" placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <textarea name="" id="" cols="30" rows="7" class="form-control px-3 py-3" placeholder="Message"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+            </div>
+          </form>
         </div>
       </div>
     </div>
@@ -59,60 +86,31 @@
 
 
 
-   
-
-    
-    <div class="site-section bg-light">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-12 mb-5"> <!----Card Starts here -->
-            <div class="block-3 d-md-flex">
-              <div class="image" style="background-image: url('images/img_1.jpg'); "></div>
-              <div class="text">
-                <h2 class="heading">Bachelor Room</h2>
-                <div class="price"><sup>$</sup><span class="number">150</span><sub>/per night</sub></div>
-                <ul class="specs mb-5">
-                  <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
-                  <li><strong>Facilities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
-                  <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                  <li><strong>Bed Type:</strong> One bed</li>
-                </ul>
-                <p><a href="#" class="btn btn-primary py-3 px-5">Read More</a></p>
-              </div>
-            </div>
-          </div>  
+  <footer class="footer">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-6 col-lg-4">
+          <h3 class="heading-section">About Us</h3>
+          <p class="mb-5">We are providing co-working space to professional with services like 24/7 free wifi, sanitations, Meeting Rooms, Cabins, Fixed Seats, Flexible Seats etc at reasonable price on hourly, monthly and yearly basis.</p>
+          <p><a href="#" class="btn btn-primary px-4">Book a visit</a></p>
         </div>
-
-        <div class="row mb-5 pt-5 justify-content-center">
-            <div class="col-md-7 text-center section-heading">
-              <h2 class="heading">More Rooms</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, iusto, omnis! Quidem, sint, impedit? Dicta eaque delectus tempora hic, corporis velit doloremque quod quam laborum, nobis iusto autem culpa quaerat!</p>
+        <div class="col-md-6 col-lg-4">
+          
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="block-23">
+            <h3 class="heading-section">Contact Info</h3>
+              <ul>
+                <li><span class="icon icon-map-marker"></span><span class="text">DAIICT, Near Reliance Circle, Gandhinagar</span></li>
+                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91-98980 98980</span></a></li>
+                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@workspace.com</span></a></li>
+                <li><span class="icon icon-clock-o"></span><span class="text">Monday &mdash; Friday 8:00am - 5:00pm</span></li>
+              </ul>
             </div>
-          </div>
-
-        <div class="row">
-          <div class="col-lg-4 mb-5">
-            <div class="block-34">
-              <div class="image">
-                <a href="#"><img src="images/img_1.jpg" alt="Image placeholder"></a>
-              </div>
-              <div class="text">
-                <h2 class="heading">Bachelor Room</h2>
-                <div class="price"><sup>$</sup><span class="number">156</span><sub>/per night</sub></div>
-                <ul class="specs">
-                  <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
-                  <li><strong>Facilities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
-                  <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                  <li><strong>Bed Type:</strong> One bed</li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
+  </footer>
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
