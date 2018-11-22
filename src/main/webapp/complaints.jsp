@@ -15,7 +15,6 @@
     <link rel="stylesheet" id="main-stylesheet" data-version="1.1.0" href="adminPanel/styles/shards-dashboards.1.1.0.min.css">
     <link rel="stylesheet" href="adminPanel/styles/extras.1.1.0.min.css">
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body class="h-100">
     <div class="container-fluid">
@@ -38,13 +37,13 @@
           <div class="nav-wrapper">
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link " href="adminIndex.jsp">
+                <a class="nav-link" href="adminIndex.jsp">
                   <i class="material-icons">edit</i>
                   <span>WorkSpace Dashboard</span>
                 </a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link " href="viewWorkSpace.jsp">
+              <li class="nav-item">
+                <a class="nav-link " href="adminViewWorkSpace.jsp">
                   <i class="material-icons">vertical_split</i>
                   <span>View WorkSpaces</span>
                 </a>
@@ -62,7 +61,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="complaints.jsp">
+                <a class="nav-link active" href="complaints.jsp">
                   <i class="material-icons">error</i>
                   <span>Complaints</span>
                 </a>
@@ -72,48 +71,81 @@
         </aside>
         <!-- End Main Sidebar -->
         <main class="main-content col-lg-10 col-md-9 col-sm-12 p-0 offset-lg-2 offset-md-3">
-          
+          <div class="main-navbar sticky-top bg-white">
+            <!-- Main Navbar -->
+            
+          </div>
           <!-- / .main-navbar -->
           <div class="main-content-container container-fluid px-4">
             <!-- Page Header -->
             <div class="page-header row no-gutters py-4">
               <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
                 <span class="text-uppercase page-subtitle">Dashboard</span>
-                <h3 class="page-title">View WorkSpaces</h3>
+                <h3 class="page-title">View Complaints</h3>
               </div>
             </div>
             <!-- End Page Header -->
             <!-- Small Stats Blocks -->
+            <!-- Default Light Table -->
+            <div class="row">
+                    <div class="col">
+                      <div class="card card-small mb-4">
+                        <div class="card-header border-bottom">
+                          <h6 class="m-0">Active Users</h6>
+                        </div>
+                        <div class="card-body p-0 pb-3 text-center">
+                          <table class="table mb-0">
+                            <thead class="bg-light">
+                              <tr>
+                                <th scope="col" class="border-0">#</th>
+                                <th scope="col" class="border-0">Title</th>
+                                <th scope="col" class="border-0">Description</th>
+                                <th scope="col" class="border-0">Priority</th>
+                                <th scope="col" class="border-0">Address</th>
+                                <th scope="col" class="border-0">Resolve</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>1</td>
+                                <td>AC</td>
+                                <td>Meeting Room AC not wokring</td>
+                                <td>High</td>
+                                <td>DAIICT, Gandhinagar</td>
+                                <td>
+                                    <button class="btn btn-md btn-outline-accent"><i class="material-icons">save</i> Resolve </button>
+                                </td>
+                              </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>AC</td>
+                                <td>Meeting Room AC not wokring</td>
+                                <td>High</td>
+                                <td>DAIICT, Gandhinagar</td>
+                                <td>
+                                    <button class="btn btn-md btn-outline-accent"><i class="material-icons">save</i> Resolve </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>AC</td>
+                                <td>Meeting Room AC not wokring</td>
+                                <td>High</td>
+                                <td>DAIICT, Gandhinagar</td>
+                                <td>
+                                    <button class="btn btn-md btn-outline-accent"><i class="material-icons">save</i> Resolve </button>
+                                </td>
+                            </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Default Light Table -->
+            <!-- End Small Stats Blocks -->
             
-            <!--Card Code Start -->
-            <script>
-	            $.get("http://localhost:8080/addresses", function(data, status){
-	                console.log(data);
-	            });
-            </script>
-            <div class="col-lg-5 col-md-6 col-sm-12 mb-4 d-inline-block">
-              <div class="card card-small card-post card-post--1">
-                <div class="card-post__image" style="background-image: url('images/img_1.jpg');">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">
-                    <a class="text-fiord-blue" href="#">CoWorking Sector-21</a>
-                  </h5>
-                  <p class="card-text  mb-3">DAIICT, Near Reliance Chowkdi, Gandhinagar</p>
-                  <p class="card-text  mb-3">Price : Rs. 150 / Day</p>
-                  <p class="card-text  mb-3">Category : Cabin </p>
-                  <p class="card-text  mb-3">Facilities : Wifi, Coffe Machine, AC</p>
-                  <p class="card-text  mb-3">Seats : 2 </p>
-                  <!--Button start-->
-            <button class="btn btn-md btn-outline-accent">
-              <i class="material-icons">edit</i> Edit </button>
-        <!--Button end-->
-                </div>
-                
-              </div>
-            </div>
-            
-            <!--Card Code End -->
           </div>
         </main>
       </div>
