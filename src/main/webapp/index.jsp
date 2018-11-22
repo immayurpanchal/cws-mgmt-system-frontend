@@ -33,10 +33,9 @@
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active"><a href="index.jsp" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="rooms.jsp" class="nav-link">WorkSpaces</a></li>
-          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-          <li class="nav-item"><a href="login.html" class="nav-link">Log in</a></li>
+          <li class="nav-item"><a href="workspaces.jsp" class="nav-link">WorkSpaces</a></li>
+          <li class="nav-item"><a href="booking.jsp" class="nav-link">Contact / Booking Request </a></li>
+          <li class="nav-item"><a href="login.jsp" class="nav-link">Log in</a></li>
         </ul>
       </div>
     </div>
@@ -85,7 +84,6 @@
   <div class="container">
       <div class="row mb-5">
         <div class="col-md-12">
-
           <div class="block-32">
             <form action="#">
               <div class="row">
@@ -141,6 +139,74 @@
         </div>
       </div>
       
+      <!-- Start of Services-->
+      <div class="row site-section">
+          <div class="col-lg-7 mb-5">
+            <img src="images/m2.jpg" alt="Image placeholder" class="img-fluid img-shadow">
+          </div>
+          <div class="col-lg-5 pl-md-5">
+            
+            <div class="media block-6">
+              <div class="icon"><span class="ion-ios-checkmark"></span></div>
+              <div class="media-body">
+                <h3 class="heading">Luxury Cabins</h3>
+                <p>Even the all-powerful Pointing has no control about the blind texts.</p>
+              </div>
+            </div>     
+    
+            <div class="media block-6">
+              <div class="icon"><span class="ion-ios-checkmark"></span></div>
+              <div class="media-body">
+                <h3 class="heading">Air Conditioner/Heater </h3>
+                <p>Even the all-powerful Pointing has no control about the blind texts.</p>
+              </div>
+            </div>   
+    
+            <div class="media block-6">
+              <div class="icon"><span class="ion-ios-checkmark"></span></div>
+              <div class="media-body">
+                <h3 class="heading">24/7 Electricity</h3>
+                <p>Even the all-powerful Pointing has no control about the blind texts.</p>
+              </div>
+            </div>   
+    
+    
+          </div>
+        </div>
+    
+    
+        <div class="row site-section pt-0">
+          <div class="col-lg-7 mb-5 order-lg-2">
+            <img src="images/m3.jpg" alt="Image placeholder" class="img-fluid img-shadow">
+          </div>
+          <div class="col-lg-5 pr-md-5 order-lg-1">
+            
+            <div class="media block-6">
+              <div class="icon"><span class="ion-ios-checkmark"></span></div>
+              <div class="media-body">
+                <h3 class="heading">Luxury Meeting Rooms</h3>
+                <p>Even the all-powerful Pointing has no control about the blind texts.</p>
+              </div>
+            </div>     
+    
+            <div class="media block-6">
+              <div class="icon"><span class="ion-ios-checkmark"></span></div>
+              <div class="media-body">
+                <h3 class="heading">Sanitaiton</h3>
+                <p>Even the all-powerful Pointing has no control about the blind texts.</p>
+              </div>
+            </div>   
+    
+            <div class="media block-6">
+              <div class="icon"><span class="ion-ios-checkmark"></span></div>
+              <div class="media-body">
+                <h3 class="heading">Mineral Water</h3>
+                <p>Even the all-powerful Pointing has no control about the blind texts.</p>
+              </div>
+            </div>   
+          </div>
+        </div>
+      <!-- End of Services -->
       <div class="row site-section">
         <div class="col-md-12">
           <div class="row mb-5">
